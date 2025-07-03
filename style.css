@@ -1,0 +1,187 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    font-family: "playfair display" , Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav p , nav a{ 
+    margin: 10px;
+    color: bisque;
+}
+
+#rightNav{
+    text-align: right;
+}
+
+#inner{
+    display: flex;
+    gap: 30px;
+}
+
+.all{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#home{
+    margin: 5%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 102px 20px 92px 70px 43px 133px ;
+}
+
+#home > img{
+    padding-left: 50px;
+    height: 460px;
+    width: 350px;
+    grid-row: span 6;
+}
+
+#home > .let{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-right: 110px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#home > .about{
+    font-size: 92px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+#home > .name{
+    font-size: 43px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+#about{
+    height: 550px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about > .hello{
+    font-size: 43px;
+    text-transform: capitalize;
+}
+
+#about > .para{
+    width: 75%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#projects{
+    height: 500px;
+    margin-bottom: 100px;
+    height: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+
+#projects > .projects{
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#projects > h1{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+#projects > .link{
+    font-size: 30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills{
+    height: 500px;
+    margin-bottom: 100px;
+    height: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+}
+
+#skills > .skills{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#skills > h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+#skills > .para{
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.c{
+    font-weight: bold;
+}
+
+#contact{
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 4fr;
+}
+
+#contact > h1{
+    font-size: 50px;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+
+#contact > .block{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
